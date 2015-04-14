@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "speakeasy": {
+      "version": "https://github.com/markbao/speakeasy/tarball/d9525fdde341624109557da52ad6cdd270025059",
+      "dependencies": {
+        "ezcrypto": {
+          "version": "0.0.3"
+        },
+        "thirty-two": {
+          "version": "0.0.1"
+        }
+      }
+    }
+  }
+}
