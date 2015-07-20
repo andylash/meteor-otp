@@ -17,6 +17,6 @@ Package.onUse(function(api) {
   api.addFiles('one-time-passcode-common.js');
   api.addFiles('one-time-passcode-client.js', 'client');
   api.addFiles('one-time-passcode-server.js', 'server');
-  api.use('mrt:moment@2.8.1');
+  api.use('momentjs:moment');
   api.export('MeteorOTP');
 });

@@ -1,10 +1,11 @@
 /* global MeteorOTP:true, moment */
-/* jshint strict: false */
+/* eslint strict:0, no-console:0 */
 
-if (typeof MeteorOTP === "undefined")
+if (typeof MeteorOTP === "undefined") {
   MeteorOTP = {};
+}
 
-MeteorOTP.checkOTP = function (user) {
+MeteorOTP.checkOTP = function(user) {
   var delay = 20; // minutes
   try {
     delay = Meteor.settings.public.OTP.expiration;
